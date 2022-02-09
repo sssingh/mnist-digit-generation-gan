@@ -189,6 +189,6 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@sunilssingh6](https://twitter.com/sunilssingh6)
+- Twitter - [@_sssingh](https://twitter.com/_sssingh)
 - Linkedin - [Sunil S. Singh](https://linkedin.com/in/sssingh)
 ---
