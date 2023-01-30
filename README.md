@@ -168,4 +168,4 @@ A randomly generated fake image using the above code is shown below; we can see 
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_sssingh)
 [![website](https://img.shields.io/badge/website-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://datamatrix-ml.com/)
 
-[Back To The Top](MNIST-Digit-Generation-using-GAN)
+[Back To The Top](#MNIST-Digit-Generation-using-GAN)
