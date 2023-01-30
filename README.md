@@ -1,19 +1,23 @@
 # MNIST Digit Generation using GAN 
+Build and train a Generative Adversarial Networks (GAN) to generate fake MNIST digit images 
 
-<img src="assets/mnist_gan_title_pic.png" width="500">
+<img src="assets/mnist_gan_title_pic.png" width="800" height="400">
 
-### Generate fake MNIST digit images
-
+## Features
+⚡Image Generation  
+⚡Generative Adverserial Network (GAN)  
+⚡Fully Connected Neural Network Layers  
+⚡MNIST  
+⚡PyTorch  
 
 ## Table of Contents
-
 - [Introduction](#introduction) 
 - [Objective](#objective)
 - [Dataset](#dataset)
 - [Solution Approach](#solution-approach)
 - [How To Use](#how-to-use)
 - [License](#license)
-- [Author Info](#author-info)
+- [Get in touch](#get-in-touch)
 
 
 ## Introduction
@@ -32,7 +36,6 @@ Have a look at [GAN Original Paper](https://www.researchgate.net/publication/263
 ## Objective
 Our goal in this project is to build a GAN and train it over the MNIST dataset so that the network learns to generate _fake_ MNIST digit images that would have come from the real MNIST dataset.
 
----
 ## Dataset
 - Dataset consists of 60,000 training images and 10,000 testing images. For this task, we'll use the training dataset.
 Every image in the dataset will belong to one of the ten classes (digit 0 to 9); however, the image labels do not matter for this task, and we won't use them.
@@ -45,10 +48,8 @@ Few samples of _real_ MNIST images are shown below...
 
 <img src="assets/mnist_samples.png" width="800">
 
-
 We will use the in-built MNIST dataset from PyTorch's `torchvision .` it's a clean, pre-processed dataset that pairs the image and respective label nicely; labels are not required for the task at hand; they will be ignored. Alternatively, the raw dataset can be downloaded from the original source [here](http://yann.lecun.com/exdb/mnist/). The raw dataset comes as a set of zip files containing training images, training images, testing images, and testing images in separate files. 
 
----
 ## Solution Approach
 ### Data Load
 - Data is downloaded using the `torchvision` dataset. 
@@ -129,7 +130,6 @@ Generator output after `100 epochs` of training...
 
 We can see how Generator has improved from generating random noisy blobs after 1st epoch to realistic-looking MNIST digits after 100 epochs. 
 
----
 ## How To Use
 1. Ensure the below-listed packages are installed
     - `NumPy`
@@ -160,35 +160,12 @@ A randomly generated fake image using the above code is shown below; we can see 
 
 ![](assets/test_result.png)
 
----
 ## License
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-MIT License
+## Get in touch
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/sssingh)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_sssingh)
+[![website](https://img.shields.io/badge/website-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://datamatrix-ml.com/)
 
-Copyright (c) [2021] [Sunil S. Singh]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the software, and to permit persons to whom the software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
----
-
-## Author Info
-
-- Twitter - [@_sssingh](https://twitter.com/_sssingh)
-- Linkedin - [Sunil S. Singh](https://linkedin.com/in/sssingh)
----
+[Back To The Top](MNIST-Digit-Generation-using-GAN)
